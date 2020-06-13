@@ -1,0 +1,68 @@
+.inputform-container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: visible;
+}
+
+.inputform-container > .form {
+    background: #fff;
+    width: 70%;
+    padding: 3%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.record-input {
+    width: 80%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.inputform-container > .form > label {
+    padding-bottom: 0.2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.save-button {
+    background-color: #6b9658;
+    color: #fff;
+    border: none;
+    padding: 1% 6%;
+    border-radius: 4px;
+    outline: transparent;
+    /* width: 50%; */
+    align-self: center;
+  }
+  
+  .save-button:hover {
+    background-color: #557846;
+    color: white;
+  }
+
+  .record-close-button {
+    position: absolute;
+    left: 94%;
+    top: 0%;
+    cursor: pointer;
+    font-size: 150%;
+  }
+
+  .invisible {
+    display: none
+  }
